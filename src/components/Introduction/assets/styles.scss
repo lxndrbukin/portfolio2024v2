@@ -1,0 +1,19 @@
+@import '../../App.Assets/assets/styles.scss';
+
+.intro {
+  .intro-fullname {
+    margin: $spacing-sm 0;
+    font-size: 2.7rem;
+    color: $white;
+  }
+
+  .intro-role {
+    margin: $spacing-sm 0;
+    font-size: 1.5rem;
+    color: $white;
+  }
+
+  .intro-text {
+    max-width: 20rem;
+  }
+}

@@ -1,0 +1,24 @@
+@import '../../App.Assets/assets/styles.scss';
+
+.socials {
+  justify-self: flex-end;
+
+  .socials-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+
+    .socials-link {
+      font-size: 2rem;
+      padding: $spacing-md;
+
+      a {
+        color: $grey;
+
+        &:hover {
+          color: $white;
+        }
+      }
+    }
+  }
+}
