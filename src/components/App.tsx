@@ -5,6 +5,7 @@ import { Navigation } from './Navigation/Navigation';
 import { Socials } from './Socials/Socials';
 import { AboutMe } from './AboutMe/AboutMe';
 import { Courses } from './Courses/Courses';
+import { Projects } from './Projects/Projects';
 
 export class App extends Component {
   render(): JSX.Element {
@@ -18,6 +19,7 @@ export class App extends Component {
         <div className="container-right">
           <AboutMe />
           <Courses />
+          <Projects />
         </div>
       </div>
     );

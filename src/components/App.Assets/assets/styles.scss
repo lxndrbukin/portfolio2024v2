@@ -8,8 +8,8 @@ html {
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  color: $dark;
-  background-image: linear-gradient($dark-blue-one, $dark-blue-two);
+  background-image: linear-gradient($dark, $black);
+  background-size: 100vh 100%;
   color: $grey;
 }
 

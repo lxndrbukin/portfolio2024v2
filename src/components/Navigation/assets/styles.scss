@@ -10,10 +10,22 @@
     .navigation-link {
       font-weight: bold;
       padding: $spacing-md 0;
+      width: 90px;
 
       a {
         color: $grey;
         text-decoration: none;
+        display: grid;
+        grid-template-columns: 1fr 16px;
+        width: 100%;
+
+        &:hover {
+          color: $purple;
+        }
+
+        i {
+          transform: rotate(-45deg);
+        }
       }
     }
   }

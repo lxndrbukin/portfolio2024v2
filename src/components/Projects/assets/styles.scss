@@ -16,6 +16,12 @@
 
     &:hover {
       background-color: rgba(153, 154, 155, 0.07);
+
+      .project-info {
+        .project-name {
+          color: $purple;
+        }
+      }
     }
 
     .project-img {
@@ -42,7 +48,6 @@
 
         .project-lang {
           padding: $spacing-md;
-          border: 1px solid $grey;
           border-radius: $border-r7;
           background-color: $dark;
           margin: $spacing-sm;
