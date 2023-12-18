@@ -2,6 +2,7 @@
 
 .socials {
   justify-self: flex-end;
+  padding-bottom: calc($spacing-xl * 3);
 
   .socials-links {
     list-style-type: none;

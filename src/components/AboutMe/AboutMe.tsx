@@ -4,7 +4,7 @@ import { Component } from 'react';
 export class AboutMe extends Component {
   render(): JSX.Element {
     return (
-      <div className="about">
+      <div id='about' className='about'>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
           necessitatibus quod iusto laborum, libero pariatur modi vitae amet

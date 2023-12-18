@@ -1,6 +1,8 @@
 @import '../../App.Assets/assets/variables.scss';
 
 .intro {
+  padding-top: calc($spacing-xl * 3);
+
   .intro-fullname {
     margin: $spacing-sm 0;
     font-size: 2.7rem;

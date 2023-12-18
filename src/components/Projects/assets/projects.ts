@@ -1,8 +1,8 @@
-import { CourseProps } from './types';
+import { ProjectProps } from './types';
 
-export const courses: CourseProps[] = [
+export const projects: ProjectProps[] = [
   {
-    dates: 'Dec 2020 - Jan 2021',
+    img: '',
     name: 'Developer Bootcamp',
     desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
     necessitatibus quod iusto laborum, libero pariatur modi vitae amet
@@ -12,7 +12,7 @@ export const courses: CourseProps[] = [
     langs: ['HTML', 'CSS', 'JavaScript'],
   },
   {
-    dates: 'Dec 2020 - Jan 2021',
+    img: '',
     name: 'Developer Bootcamp',
     desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
     necessitatibus quod iusto laborum, libero pariatur modi vitae amet
@@ -22,7 +22,7 @@ export const courses: CourseProps[] = [
     langs: ['HTML', 'CSS', 'JavaScript'],
   },
   {
-    dates: 'Dec 2020 - Jan 2021',
+    img: '',
     name: 'Developer Bootcamp',
     desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
     necessitatibus quod iusto laborum, libero pariatur modi vitae amet
@@ -32,7 +32,7 @@ export const courses: CourseProps[] = [
     langs: ['HTML', 'CSS', 'JavaScript'],
   },
   {
-    dates: 'Dec 2020 - Jan 2021',
+    img: '',
     name: 'Developer Bootcamp',
     desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
     necessitatibus quod iusto laborum, libero pariatur modi vitae amet
@@ -42,7 +42,7 @@ export const courses: CourseProps[] = [
     langs: ['HTML', 'CSS', 'JavaScript'],
   },
   {
-    dates: 'Dec 2020 - Jan 2021',
+    img: '',
     name: 'Developer Bootcamp',
     desc: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius
     necessitatibus quod iusto laborum, libero pariatur modi vitae amet

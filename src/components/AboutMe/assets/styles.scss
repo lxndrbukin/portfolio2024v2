@@ -1,6 +1,8 @@
 @import '../../App.Assets/assets/variables.scss';
 
 .about {
+  padding-top: calc($spacing-xl * 3);
+
   a {
     color: $white;
   }

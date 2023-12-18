@@ -1,10 +1,10 @@
 @import '../../App.Assets/assets/variables.scss';
 
-.courses {
+.projects {
   padding-top: calc($spacing-xl * 3);
   box-sizing: border-box;
 
-  .course {
+  .project {
     display: grid;
     grid-template-columns: 30% 70%;
     margin-bottom: $spacing-xl;
@@ -18,14 +18,16 @@
       background-color: rgba(153, 154, 155, 0.07);
     }
 
-    .course-dates {
-      color: $grey;
+    .project-img {
+      background-color: rgba(153, 154, 155, 0.2);
+      width: 120px;
+      height: 75px;
     }
 
-    .course-info {
+    .project-info {
       color: $grey;
 
-      .course-name {
+      .project-name {
         margin: 0;
         margin-bottom: $spacing-sm;
         color: $white;
@@ -34,11 +36,11 @@
         align-items: center;
       }
 
-      .course-langs {
+      .project-langs {
         display: flex;
         flex-wrap: wrap;
 
-        .course-lang {
+        .project-lang {
           padding: $spacing-md;
           border: 1px solid $grey;
           border-radius: $border-r7;

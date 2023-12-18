@@ -12,6 +12,10 @@ export class Courses extends Component {
   }
 
   render(): JSX.Element {
-    return <div className="courses">{this.renderCourses()}</div>;
+    return (
+      <div id='courses' className='courses'>
+        {this.renderCourses()}
+      </div>
+    );
   }
 }

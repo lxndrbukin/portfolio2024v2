@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import './variables.scss';
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
@@ -15,13 +19,12 @@ body {
 }
 
 .container {
-  padding-top: calc($spacing-xl * 3);
   width: 100%;
   max-width: $max-width;
   justify-self: center;
   height: 100%;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 45% 55%;
   grid-template-areas: 'left right';
 
   .container-left {
@@ -30,9 +33,11 @@ body {
     height: 100%;
     position: fixed;
     grid-area: left;
+    box-sizing: border-box;
   }
 
   .container-right {
     grid-area: right;
+    box-sizing: border-box;
   }
 }

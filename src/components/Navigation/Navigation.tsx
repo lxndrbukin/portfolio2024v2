@@ -7,13 +7,13 @@ export class Navigation extends Component {
       <nav className='navigation'>
         <ul className='navigation-links'>
           <li className='navigation-link'>
-            <a href='#'>About</a>
+            <a href='#about'>About</a>
           </li>
           <li className='navigation-link'>
-            <a href='#'>Courses</a>
+            <a href='#courses'>Courses</a>
           </li>
           <li className='navigation-link'>
-            <a href='#'>Projects</a>
+            <a href='#projects'>Projects</a>
           </li>
         </ul>
       </nav>
