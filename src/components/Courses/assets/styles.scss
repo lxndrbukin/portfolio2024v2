@@ -1,0 +1,26 @@
+@import '../../App.Assets/assets/variables.scss';
+
+.courses {
+  .course {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-bottom: $spacing-xl;
+
+    .course-info {
+      .course-name {
+        margin: 0;
+        margin-bottom: $spacing-sm;
+        color: $white;
+      }
+
+      .course-langs {
+        display: flex;
+        flex-wrap: wrap;
+
+        .course-lang {
+          padding: $spacing-md;
+        }
+      }
+    }
+  }
+}
