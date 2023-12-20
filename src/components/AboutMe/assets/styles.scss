@@ -1,9 +1,15 @@
 @import '../../App.Assets/assets/variables.scss';
 
 .about {
+  padding-left: $spacing-xl;
   padding-top: calc($spacing-xl * 3);
+  line-height: 1.7rem;
 
   a {
+    color: $white;
+  }
+
+  b {
     color: $white;
   }
 }
