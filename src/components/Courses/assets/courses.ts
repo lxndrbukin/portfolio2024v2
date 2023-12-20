@@ -1,4 +1,4 @@
-import { CourseProps } from './types';
+import { CourseProps } from '../types';
 
 export const courses: CourseProps[] = [
   {

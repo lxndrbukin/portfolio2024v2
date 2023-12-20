@@ -1,6 +1,6 @@
 import './assets/styles.scss';
 import { Component } from 'react';
-import { CourseProps } from './assets/types';
+import { CourseProps } from './types';
 import { courses } from './assets/courses';
 import { Course } from './Course';
 
@@ -13,7 +13,7 @@ export class Courses extends Component {
 
   render(): JSX.Element {
     return (
-      <div id='courses' className='courses'>
+      <div id="courses" className="courses">
         {this.renderCourses()}
       </div>
     );

@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { ProjectProps } from './assets/types';
+import { ProjectProps } from './types';
 
 export class Project extends Component<ProjectProps> {
   renderLangs(): JSX.Element[] {
