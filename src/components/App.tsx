@@ -8,6 +8,10 @@ import { Courses } from './Courses/Courses';
 import { Projects } from './Projects/Projects';
 
 export class App extends Component {
+  componentDidMount(): void {
+    window.document.title = 'Alexander Bukin';
+  }
+
   render(): JSX.Element {
     return (
       <Fragment>
