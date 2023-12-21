@@ -8,13 +8,13 @@ import { Project } from './Project';
 export class Projects extends Component {
   renderProjects(): JSX.Element[] {
     return projects.map((project: ProjectProps) => {
-      return <Project {...project} />;
+      return <Project key={project.name} {...project} />;
     });
   }
 
   render(): JSX.Element {
     return (
-      <div id="projects" className="projects">
+      <div id='projects' className='projects'>
         {this.renderProjects()}
       </div>
     );

@@ -1,21 +1,35 @@
 import './assets/styles.scss';
 import { Component } from 'react';
-import { CourseProps } from './types';
+import { CoursesProps, CourseProps } from './types';
+import { connect } from 'react-redux';
+import { RootState, fetchCourses } from '../../store';
 import { courses } from './assets/courses';
 import { Course } from './Course';
 
-export class Courses extends Component {
+class _Courses extends Component<CoursesProps> {
+  componentDidMount(): void {
+    this.props.fetchCourses();
+  }
+
   renderCourses(): JSX.Element[] {
-    return courses.map((course: CourseProps) => {
-      return <Course {...course} />;
+    return this.props.courses.list.map((course: CourseProps) => {
+      return <Course key={course.name} {...course} />;
     });
   }
 
   render(): JSX.Element {
     return (
-      <div id="courses" className="courses">
+      <div id='courses' className='courses'>
         {this.renderCourses()}
       </div>
     );
   }
 }
+
+const mapStateToProps = ({ courses }: RootState) => {
+  return {
+    courses,
+  };
+};
+
+export const Courses = connect(mapStateToProps, { fetchCourses })(_Courses);

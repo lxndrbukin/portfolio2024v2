@@ -1,5 +1,5 @@
 export type CourseProps = {
-  dates: string;
+  date: string;
   name: string;
   desc: string;
   url: string;
