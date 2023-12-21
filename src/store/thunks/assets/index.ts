@@ -1,1 +1,1 @@
-export const API_URL = 'http://lxndrbukin.github.io/apis';
+export const API_URL = 'https://lxndrbukin-github-io.vercel.app/apis';
